@@ -1,0 +1,32 @@
+.box {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  margin: 3rem 3rem;
+}
+
+.btn {
+  padding: .7rem;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 1.5rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  cursor: pointer;
+}
+.btn :hover {
+  background-color: #e59400;
+  color: white;
+}
